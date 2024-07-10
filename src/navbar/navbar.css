@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px 15px 0px 0px;
+  overflow: hidden;
+  background-color: #282A35;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li span {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+li span:hover {
+  background-color: #11111121;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #4CAF50;
+}

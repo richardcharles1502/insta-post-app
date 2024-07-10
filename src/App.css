@@ -1,0 +1,10 @@
+.register, .login{
+  background-color: #ced4da57;
+    padding: 20px;
+    width: 39%;
+    position: absolute;
+    top: 16%;
+    left: 32%;
+    border: 1px solid #0000002b;
+    border-radius: 10px;
+}
