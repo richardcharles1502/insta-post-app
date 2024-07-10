@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/insta-post-app/static/css/main.1df9acba.css",
-    "main.js": "/insta-post-app/static/js/main.ddfcbf78.js",
+    "main.js": "/insta-post-app/static/js/main.b4777f73.js",
     "static/js/453.8ab44547.chunk.js": "/insta-post-app/static/js/453.8ab44547.chunk.js",
     "index.html": "/insta-post-app/index.html",
     "main.1df9acba.css.map": "/insta-post-app/static/css/main.1df9acba.css.map",
-    "main.ddfcbf78.js.map": "/insta-post-app/static/js/main.ddfcbf78.js.map",
+    "main.b4777f73.js.map": "/insta-post-app/static/js/main.b4777f73.js.map",
     "453.8ab44547.chunk.js.map": "/insta-post-app/static/js/453.8ab44547.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1df9acba.css",
-    "static/js/main.ddfcbf78.js"
+    "static/js/main.b4777f73.js"
   ]
 }
