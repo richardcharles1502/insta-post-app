@@ -12,8 +12,7 @@ export default function Login() {
    }
    const submitform = (e) =>{
         e.preventDefault();
-        
-        fetch('http://localhost:5000/loginuser', {
+        fetch(process.env.REACT_APP_SERVER_URL+'/loginuser', {
             method:'POST',
             headers: {
                 "Content-type": "application/json; charset=UTF-8"

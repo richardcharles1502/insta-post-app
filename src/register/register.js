@@ -11,7 +11,7 @@ export default function Register() {
    }
    const submitform = (e) =>{
         e.preventDefault();
-        fetch('http://localhost:5000/registeruser', {
+        fetch(process.env.REACT_APP_SERVER_URL+'/registeruser', {
              method: 'POST',
              headers: { 
                 "Content-type": "application/json; charset=UTF-8"

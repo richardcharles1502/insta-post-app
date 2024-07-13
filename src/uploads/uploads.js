@@ -11,7 +11,7 @@ export default function Uploads(){
 
     const fetchallimages = () => {
         const email = localStorage.getItem('login')
-        fetch('http://localhost:5000/getallimages/'+email)
+        fetch(process.env.REACT_APP_SERVER_URL+'/getallimages/'+email)
         .then((res) => res.json())
         .then((images) => {
             setimages(images)
@@ -30,7 +30,7 @@ export default function Uploads(){
           formData.append('email', email);
       
           try{
-              const resp = await fetch('http://localhost:5000/fileupload',{
+              const resp = await fetch(process.env.REACT_APP_SERVER_URL+'/fileupload',{
                  method:'POST',
                  body: formData
               })
